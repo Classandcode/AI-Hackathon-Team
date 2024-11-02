@@ -11,8 +11,9 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    opacity: 0.5;  /* Reduces the visibilty of the picture */
+    opacity: 0.9;  /* Reduces the visibilty of the picture */
 }
+
 
 .carousel-{
     position: absolute;
@@ -25,5 +26,22 @@
 }
 
 .carousel-inner .carousel-item{
+    text-align: center;
     transition: tranform 0.5s ease;
+    opacity: 1;
+    font-family: fantasy;
+}
+
+/* styles.css */
+.nav-item {
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+.carousel-name{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: rgb(150, 150, 150);
 }
