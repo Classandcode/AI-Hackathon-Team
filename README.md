@@ -1,1 +1,1 @@
-https://bmccaiteam.netlify.app/healthhome.html
+https://bmcchopebot.netlify.app/healthhome
